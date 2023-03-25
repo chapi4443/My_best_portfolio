@@ -129,8 +129,8 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Node js Developer",
+    company_name: "DAN ENERGY ETHIOPIA",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",

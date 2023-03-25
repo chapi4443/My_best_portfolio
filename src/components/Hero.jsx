@@ -20,11 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I am a junior software developer relocating to
-Addis Ababa in June seeking employment with a
-fast-growing startup. I bring more than 10
-months experience writing JavaScript and more
-than  months experience in the technology
-industry. <br className='sm:block hidden' />
+Addis Ababa <br className='sm:block hidden' />
             interfaces and web applications
           </p>
         </div>
