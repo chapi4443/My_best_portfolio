@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import myImage from "../assets/images/profile.jpg"; // import your image
 
 const Hero = () => {
+  const handleDownload = (url) => {
+    window.location.href = url;
+  };
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -19,16 +23,36 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Yeabsira Ashenafi</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am a junior software developer relocating to
-Addis Ababa <br className='sm:block hidden' />
-            interfaces and web applications
+          I am a junior full Stack software developer
+relocating to Addis Ababa. I bring
+more than eight months experience writing
+JavaScript and more than eight months
+experience in the technology industry. With a deep understanding of front-
+end and back-end technologies, I am committed
+to delivering high-quality, scalable, and
+maintainable code.
+            {/* <br className='sm:block hidden' />
+            interfaces and web applications */}
           </p>
+          {/* <img src={myImage} alt="My Image" width="200" height="300" style={{ float: "right", marginRight: "20px" }} /> */}
+
+          <button
+            className='bg-[#915EFF] text-white py-2 px-4 rounded'
+            onClick={() =>
+              handleDownload("https://drive.google.com/file/d/1e86bEPqpQmzXODh2WU9MHM5QNxDYBALZ/view?usp=sharing")
+            }
+          >
+            Download Resume
+          </button>
         </div>
       </div>
 
       <ComputersCanvas />
 
+
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* <img src={myImage} alt="My Imge" width="200" height="300" style={{ float: "right", marginRight: "20px" }} /> */}
+
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
