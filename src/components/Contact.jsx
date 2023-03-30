@@ -126,11 +126,12 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-       variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className='flex-[0.75]  p-8 rounded-2xl'
+        style={{ marginRight: "30px" }} // Add margin to the right
       >
 
-      <img src={myImage} alt="My Image" width="500" height="2000" style={{ float: "right", marginRight: "20px" }} />
+      <img src={myImage} alt="My Image" width="500" height="700" style={{ float: "right", marginRight: "20px" }} />
        
       </motion.div>
     </div>
