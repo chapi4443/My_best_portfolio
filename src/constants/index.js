@@ -190,7 +190,7 @@ const projects = [
   {
     name: "Construction Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, real estate, and manage construction rentals from various providers, providing a convenient and efficient solution for realstate needs.",
     tags: [
       {
         name: "react",
@@ -201,54 +201,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "red-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/chapi4443/Construction",
   },
   {
-    name: "Job IT",
+    name: "swift car",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for car spare parts, view estimated salary ranges for cars, and locate available cars and spare parts based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "express js",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/chapi4443/swift-car",
   },
 ];
 
