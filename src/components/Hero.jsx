@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import myImage from "../assets/images/profile.jpg"; // import your image
+//import myImage from "../assets/images/profile.jpg"; // import your image
 
 const Hero = () => {
   const handleDownload = (url) => {
@@ -23,10 +23,9 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Yeabsira Ashenafi</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am a junior full Stack software developer
-relocating to Addis Ababa. I bring
-more than eight months experience writing
-JavaScript and more than eight months
+          I am a full Stack software developer
+relocating to Addis Ababa. I bring experience writing
+JavaScript and 
 experience in the technology industry. With a deep understanding of front-
 end and back-end technologies, I am committed
 to delivering high-quality, scalable, and
